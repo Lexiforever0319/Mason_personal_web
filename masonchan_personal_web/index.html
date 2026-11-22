@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Showreel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/components.js" defer></script>
+</head>
+<body>
+  <site-header></site-header>
+
+  <main>
+    <!-- Showreel video: replace assets/showreel.mp4 (and optionally add a poster image). -->
+    <section class="showreel" aria-label="Showreel">
+      <div class="showreel__frame">
+        <video class="showreel__video" controls playsinline preload="metadata" poster="assets/cover.jpg">
+          <source src="assets/showreel.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+  </main>
+
+  <site-footer></site-footer>
+</body>
+</html>
